@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .olPopupCloseBox:before {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 1px;
+            background: #000;
+            margin-left: -8px;
+            transform: rotate(45deg);
+            content: '';
+
+        }
+        .olPopupCloseBox:after {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 1px;
+            background: #000;
+            margin-left: -8px;
+            transform: rotate(-45deg);
+            content: '';
+
+        }
+        .bntFilterWrapper {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .btnFilter {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            border: 1px solid #000;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 0 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bntFilterWrapper">
+        <div class="btnFilter" data-filter="All">Все</div>
+        <div class="btnFilter" data-filter="delayed">Новые заранее</div>
+        <div class="btnFilter" data-filter="ReadyAndInProgress">Готовится и Готово</div>
+        <div class="btnFilter" data-filter="В пути">В пути</div>
+        <div class="btnFilter" data-filter="Ждет отправки">Ждет отправки</div>
+    </div>
+
+
+    <div id="map" style="height:calc(100vh - 71px)"></div>
+
+    <script src="js/OpenLayers.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+
+    </script>
+</body>
+</html>
