@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21cec2da-1f0f-46ca-9826-f5f86aa1383d" name="Default Changelist" comment="" />
+    <list default="true" id="21cec2da-1f0f-46ca-9826-f5f86aa1383d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/marker.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/marker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/google.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/google.tidy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/ie6-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/ie6-style.tidy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/add_point_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/add_point_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/close.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/drag-rectangle-off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/drag-rectangle-on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/draw_line_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/draw_line_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/draw_point_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/draw_point_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/draw_polygon_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/draw_polygon_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/editing_tool_bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/move_feature_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/move_feature_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/navigation_history.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/overview_replacement.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/pan-panel-NOALPHA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/pan-panel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/pan_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/pan_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/panning-hand-off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/panning-hand-on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/remove_point_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/remove_point_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/ruler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/save_features_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/save_features_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/view_next_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/view_next_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/view_previous_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/view_previous_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/zoom-panel-NOALPHA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/img/zoom-panel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/style.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/style.mobile.tidy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default/style.tidy.css" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,11 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+            <state relative-caret-position="255">
+              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -25,14 +72,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4453">
-              <caret line="355" column="45" selection-start-line="355" selection-start-column="45" selection-end-line="355" selection-end-column="45" />
-              <folding>
-                <marker date="1553022888106" expanded="true" signature="12807:13007" ph="..." />
-              </folding>
+            <state relative-caret-position="969">
+              <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/map-locations.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="2543" selection-start-line="1" selection-start-column="2516" selection-end-line="1" selection-end-column="2543" />
             </state>
           </provider>
         </entry>
@@ -48,9 +101,23 @@
       <find>marker</find>
       <find>FramedCloud</find>
       <find>markers</find>
-      <find>В пути</find>
-      <find>Ждет отправки</find>
       <find>iconSize</find>
+      <find>console.</find>
+      <find>&quot;delayed&quot;:true</find>
+      <find>ReadyAndInProgress</find>
+      <find>delayed</find>
+      <find>&quot;delayed&quot;:true,</find>
+      <find>В пути</find>
+      <find>renderer</find>
+      <find>createPopup</find>
+      <find>vectorLayer</find>
+      <find>Львів, Пулюя І. вул., дім 40</find>
+      <find>aja</find>
+      <find>Оксана</find>
+      <find>Антон</find>
+      <find>bounds</find>
+      <find>Готовится</find>
+      <find>Ждет отправки</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -59,8 +126,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/map-locations.json" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -75,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,12 +165,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BrandSafway" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -135,16 +203,18 @@
       <updated>1552987167424</updated>
       <workItem from="1552987169529" duration="1285000" />
       <workItem from="1552989867521" duration="22757000" />
+      <workItem from="1553072656751" duration="25957000" />
+      <workItem from="1553156806906" duration="454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24042000" />
+    <option name="totallyTimeSpent" value="50453000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1920" height="999" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24920969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -156,7 +226,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3296582" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.271645" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -167,13 +237,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.es6">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="37" lean-forward="true" selection-end-line="463" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.es6" />
     <entry file="file://$PROJECT_DIR$/js/OpenLayers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6">
@@ -183,8 +247,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        <state relative-caret-position="255">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -193,11 +257,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4453">
-          <caret line="355" column="45" selection-start-line="355" selection-start-column="45" selection-end-line="355" selection-end-column="45" />
-          <folding>
-            <marker date="1553022888106" expanded="true" signature="12807:13007" ph="..." />
-          </folding>
+        <state relative-caret-position="969">
+          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map-locations.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2543" selection-start-line="1" selection-start-column="2516" selection-end-line="1" selection-end-column="2543" />
         </state>
       </provider>
     </entry>
