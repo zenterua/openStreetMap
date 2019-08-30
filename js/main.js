@@ -2,12 +2,11 @@
 
 window.onload = function () {
 
-    var markers = [], vectorLayer = [], jsonData = [], zoom, center, map, icon, bounds, index = 0, vectorIndex = 0;
+    var markers = [], vectorLayer = [], jsonData = [], zoom, center, map, icon, bounds, index = 0, vectorIndex = 0, markerFeature = [] ;
 
     bounds = new OpenLayers.Bounds();
 
     function addMarker(status, lng, lat, info, id) {
-        console.log(status);
         if ( status === 'production' ) {
             icon = new OpenLayers.Icon("./img/marker2.png", new OpenLayers.Size(32, 50));
         } else {
@@ -22,8 +21,7 @@ window.onload = function () {
 
         var popup = OpenLayers.Class(OpenLayers.Popup.FramedCloud, {
             "autoSize": true,
-            "minSize": new OpenLayers.Size(300, 50),
-            "maxSize": new OpenLayers.Size(500, 300),
+            "maxSize": new OpenLayers.Size(500, 76),
             "keepInMap": true
         });
 
@@ -38,11 +36,11 @@ window.onload = function () {
 
         markers[id].addMarker(marker);
 
+        feature.createPopup(true);
+        map.addPopup(feature.popup);
+        feature.popup.show();
         var markerClick = function(e) {
-            console.log(this);
-
             this.popup = this.createPopup(this.closeBox);
-            console.log(this.popup);
             map.addPopup(this.popup);
             this.popup.show();
             OpenLayers.Event.stop(e);
@@ -52,10 +50,10 @@ window.onload = function () {
         map.addLayer(markers[id]);
 
         marker.events.register("click", feature, markerClick);
+        markerFeature.push(feature);
     }
 
     function addVector(status, lng, lat, id, timeLeftToEnd, delayed) {
-        console.log(status);
         vectorLayer[id] = new OpenLayers.Layer.Vector("Simple Geometry", {
             styleMap: new OpenLayers.StyleMap({'default':{
                     fillColor: status === 'Готовится' ? '#ffff00' : delayed === true ? '#00E71B' : '#fff',
@@ -100,7 +98,6 @@ window.onload = function () {
             if (xmlhttp.readyState === XMLHttpRequest.DONE) {   // XMLHttpRequest.DONE === 4
                 if (xmlhttp.status === 200) {
                     jsonData = JSON.parse(this.response);
-                    console.log(jsonData);
                     // first add vector graphic this will fix z index problem;
                     jsonData.forEach(function (item) {
                         addVector(item.status, item.location.lng,item.location.lat, vectorIndex, item.delivery_time_to_end, item.delayed);
@@ -112,7 +109,8 @@ window.onload = function () {
                         index++;
                     });
 
-                    addMarker('production', 24.04327, 49.80172, 'Виробництво')
+                    addMarker('production', 24.04327, 49.80172, 'Виробництво');
+
                 }
                 else if (xmlhttp.status === 400) {
                     console.log('There was an error 400');
@@ -133,9 +131,15 @@ window.onload = function () {
     }
 
     function markerFilter(filterAttr) {
+        console.log(markerFeature);
+        if ( markerFeature ) {
+            for( var f = 0; f < markerFeature.length; f++) {
+                markerFeature[f].popup.toggle();
+            }
+            markerFeature = [];
+        }
         if ( markers ) {
             for( var m = 0; m < markers.length; m++) {
-                console.log(markers[m]);
                 markers[m].clearMarkers();
                 vectorLayer[m].styleMap.styles.default.defaultStyle.pointRadius = 0;
                 vectorLayer[m].styleMap.styles.default.defaultStyle.label = '';
@@ -144,6 +148,7 @@ window.onload = function () {
             index = 0;
             vectorIndex = 0;
             markers = [];
+           
         }
         switch (filterAttr) {
             case "All":
@@ -211,7 +216,7 @@ window.onload = function () {
             }
             this.classList.add('activeFilter');
             markerFilter(this.getAttribute('data-filter'));
-        })
+        });
     }
 
 };
